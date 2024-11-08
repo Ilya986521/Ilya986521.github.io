@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
@@ -13,7 +13,6 @@
     <button onclick="divide()">Разделить</button>
     <button onclick="fold()">Сложить</button>
     <button onclick="subtract()">Вычесть</button>
-    
 
     <script>
         let n1 = document.getElementById('num1');
@@ -28,21 +27,9 @@
             res.innerText = n1.value / n2.value
         }
 
-        function subtract(){
-            res.innerText = n1.value - n2.value
-           
-        }
-
         function fold(){
             res.innerText = parseFloat(n1.value) + parseFloat(n2.value)
         }
-    
-        
-        
-
-
-
     </script>
-    
 </body>
 </html>
